@@ -1,17 +1,16 @@
 {
-    "name": "node-zip-rust",
-    "version": "0.1.1",
-    "description": "",
-    "main": "lib/index.js",
-    "typings": "lib/index.d.ts",
-    "author": "Wang Zishi <ynh.2@outlook.com>",
-    "license": "MIT",
-    "dependencies": {
-      "neon-cli": "^0.2.0",
-      "rxjs": "^6.3.1"
-    },
-    "scripts": {
-      "install": "neon build --release"
-    }
+  "name": "node-zip-rust",
+  "version": "0.1.1",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "author": "Wang Zishi <ynh.2@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.2.0",
+    "rxjs": "^6.3.1"
+  },
+  "scripts": {
+    "install": "neon build --release"
   }
-  
+}
