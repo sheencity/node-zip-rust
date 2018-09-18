@@ -1,5 +1,5 @@
 {
-  "name": "node-zip-rust",
+  "name": "@sheencity/node-zip-rust",
   "version": "0.1.1",
   "description": "",
   "main": "lib/index.js",
