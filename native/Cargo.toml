@@ -1,0 +1,18 @@
+[package]
+name = "zip-rust"
+version = "0.1.1"
+authors = ["Wang Zishi <ynh.2@outlook.com>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "zip_rust"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.2"
+
+[dependencies]
+walkdir = "2"
+zip = "0.4"
+neon = "0.2"
